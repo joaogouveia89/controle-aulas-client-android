@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_main"
+            android:icon="@drawable/ic_main"
+            android:title="Principal" />
+        <item
+            android:id="@+id/menu_students"
+            android:icon="@drawable/ic_students"
+            android:title="Alunos" />
+        <item
+            android:id="@+id/menu_subjects"
+            android:icon="@drawable/ic_subjects"
+            android:title="Matérias" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/menu_about"
+                android:icon="@drawable/ic_about"
+                android:title="Sobre" />
+        </menu>
+    </item>
+
+</menu>
